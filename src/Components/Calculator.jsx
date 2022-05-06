@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css';
+import '../styles/Styles.css';
 import useCalc from '../hooks/useCalc'
 
 const Calculator = () => {

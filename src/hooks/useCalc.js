@@ -3,10 +3,10 @@ import { useState} from 'react'
 
 const useCalc = () => {
     //Creacion de  los valores de la calculadora
-    const [numero1, setNumero1] = useState(0);
-    const [numero2, setNumero2] = useState(0);
-    const [operacionActual, setOperacionActual] = useState(0);
-    const [resultado, setResultado] = useState(0);
+    const [numero1, setNumero1] = useState("");
+    const [numero2, setNumero2] = useState("");
+    const [operacionActual, setOperacionActual] = useState("");
+    const [resultado, setResultado] = useState("");
 
     //funcion numero click permite usar los botones numerales 
     function numeroClick (val){
